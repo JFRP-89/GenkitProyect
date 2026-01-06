@@ -1,0 +1,21 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Perplexity CLI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "genkit start -- node index.js"
+  },
+  "author": "jfrp-89",
+  "license": "ISC",
+  "dependencies": {
+    "@genkit-ai/googleai": "^1.27.0",
+    "@tavily/core": "0.6.4",
+    "chalk": "^5.6.2",
+    "dotenv": "^17.2.3",
+    "genkit": "^1.27.0",
+    "ora": "^9.0.0"
+  }
+}
